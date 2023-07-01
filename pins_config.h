@@ -12,15 +12,9 @@
 #define LVGL_LCD_BUF_SIZE     (EXAMPLE_LCD_H_RES * EXAMPLE_LCD_V_RES)
 
 
-// #define WIFI_SSID             "YOUR-SSID"
-// #define WIFI_PASSWORD         "YOUR-PSW"
-#if 0
-#define WIFI_SSID             "HaiZei-Tech"
-#define WIFI_PASSWORD         "HaiZei731."
-#else
-#define WIFI_SSID             "Xiaomi_Jack_2.4G"
-#define WIFI_PASSWORD         "135792460"
-#endif
+#define WIFI_SSID             "YOUR-SSID"
+#define WIFI_PASSWORD         "YOUR-PSW"
+
 
 #define WIFI_CONNECT_WAIT_MAX (30 * 1000)
 
